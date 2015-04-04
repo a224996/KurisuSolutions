@@ -143,17 +143,17 @@ namespace Oracle
             config.AddSubMenu(cskills);
 
             var cleanseMenu = new Menu("Cleanse Debuffs", "cdebufs");
-            cleanseMenu.AddItem(new MenuItem("stun", "Stuns")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("charm", "Charms")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("taunt", "Taunts")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("fear", "Fears")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("snare", "Snares")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("silence", "Silences")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("suppression", "Supression")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("polymorph", "Polymorphs")).SetValue(true);
-            cleanseMenu.AddItem(new MenuItem("blind", "Blinds")).SetValue(false);
-            cleanseMenu.AddItem(new MenuItem("slow", "Slows")).SetValue(false);
-            cleanseMenu.AddItem(new MenuItem("poison", "Poisons")).SetValue(false);
+            cleanseMenu.AddItem(new MenuItem("stun", "眩晕")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("charm", "魅惑")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("taunt", "嘲讽")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("fear", "恐惧")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("snare", "陷阱")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("silence", "沉默")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("suppression", "禁锢")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("polymorph", "变形")).SetValue(true);
+            cleanseMenu.AddItem(new MenuItem("blind", "致盲")).SetValue(false);
+            cleanseMenu.AddItem(new MenuItem("slow", "减速")).SetValue(false);
+            cleanseMenu.AddItem(new MenuItem("poison", "中毒")).SetValue(false);
             config.AddSubMenu(cleanseMenu);
 
             var debugMenu = new Menu("Debugging", "debugmenu");
